@@ -1,9 +1,9 @@
 <template>
-  <div>Content</div>
-  <!--
-  <v-container fluid>
-  </v-container>
-  -->
+  <v-main>
+      <v-container fluid>
+        Content
+      </v-container>
+  </v-main>
 </template>
 
 <script>

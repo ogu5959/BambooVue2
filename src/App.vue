@@ -1,20 +1,8 @@
 <template>
   <v-app>
-    <v-navigation-drawer app>
-      <Navigation />
-    </v-navigation-drawer>
-
-    <v-app-bar app>
-      <Header />
-    </v-app-bar>
-
-    <v-main>
-      <Content />
-    </v-main>
-
-    <v-footer app>
-      <!-- -->
-    </v-footer>
+    <Header />
+    <Navigation />
+    <Content />
   </v-app>
 </template>
 
@@ -25,7 +13,6 @@ import Content    from '@/components/Content.vue'
 
 export default {
   name: 'App',
-
   components: {
     Header,
     Navigation,

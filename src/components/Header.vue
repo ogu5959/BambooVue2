@@ -1,5 +1,7 @@
 <template>
-  <div>Header</div>
+   <v-app-bar app>
+      Header
+   </v-app-bar>
 </template>
 
 <script>
